@@ -1,18 +1,9 @@
-## Getting Started
+# Contador Numérico
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto simples em Java que lê dois números inteiros fornecidos pelo usuário via terminal e imprime números incrementados até a diferença entre os dois números. Se o primeiro número for maior que o segundo, o programa lança uma exceção customizada.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Lê dois números inteiros do usuário.
+- Imprime uma série de números incrementados a partir de 1.
+- Lança uma exceção customizada (`ParametrosInvalidosException`) se o primeiro número for maior que o segundo.
